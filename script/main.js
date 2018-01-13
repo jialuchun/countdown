@@ -9,7 +9,7 @@
 $(document).ready(function() {
 	$("#count").countdown({
 		//to change lunch date just replace the current date with yours .
-		date: "sept 30, 2017",  
+		date: "feb 14, 2018",  
 		//html code in count div here.
 		htmlTemplate: "<div id='days-count' class='numbers'>%{d}<span class='days-label'>days</span></div> <div id='hours-count' class='numbers'>%{h}<span class='hours-label'>hours</span></div><div id='min-count' class='numbers'>%{m}<span class='min-label'>min</span></div><div id='sec-count' class='numbers'>%{s}<span class='sec-label'>sec</span></div>"
 	});
